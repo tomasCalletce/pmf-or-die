@@ -1,4 +1,4 @@
-import { MessageSquare, FileText } from "lucide-react";
+import { MessageSquare, Video } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -48,7 +48,7 @@ export default function HomePage() {
         </div>
         <p className="text-center text-lg md:text-xl leading-relaxed max-w-xl mx-auto text-gray-300 font-light mb-8">
           45 días para crear un producto a llegar a revenue. Todo se vale. Lo
-          único importa es llegar a $.
+          único importa es llegar al $.
         </p>
 
         <div className="w-full max-w-xl mx-auto mt-4">
@@ -75,7 +75,7 @@ export default function HomePage() {
               className="group relative px-8 py-4 flex items-center gap-3 rounded-full bg-black bg-opacity-60 backdrop-blur-md border border-zinc-800 hover:border-zinc-700 shadow-[0_0_15px_rgba(255,255,255,0.05)] transition-all w-80 justify-center"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-[#111111] to-[#222222] rounded-full opacity-60"></div>
-              <MessageSquare className="w-5 h-5 relative z-10 text-[#25D366]" />
+              <MessageSquare className="w-5 h-5 relative z-10 text-[#FF4C4C]" />
               <span className="font-medium text-white relative z-10">
                 Únete al grupo de WhatsApp
               </span>
@@ -88,7 +88,7 @@ export default function HomePage() {
               className="group relative px-8 py-4 flex items-center gap-3 rounded-full bg-black bg-opacity-60 backdrop-blur-md border border-zinc-800 hover:border-zinc-700 shadow-[0_0_15px_rgba(255,255,255,0.05)] transition-all w-80 justify-center"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-[#111111] to-[#222222] rounded-full opacity-60"></div>
-              <FileText className="w-5 h-5 relative z-10 text-[#EA4335]" />
+              <Video className="w-5 h-5 relative z-10 text-[#EA4335]" />
               <span className="font-medium text-white relative z-10">
                 Únete al meet 24-7
               </span>
