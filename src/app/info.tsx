@@ -1,4 +1,4 @@
-import { MessageSquare, Video } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 export const Info = () => {
   return (
     <>
@@ -53,17 +53,17 @@ export const Info = () => {
           </h2>
         </div>
         <p className="text-center text-lg md:text-xl leading-relaxed max-w-xl mx-auto text-gray-300 font-light mb-6">
-          45 días para crear un producto a llegar a revenue. Todo se vale. Lo
-          único importa es llegar al $.
+          45 días para crear un producto y llegar a revenue. El objetivo es
+          ventas.
         </p>
 
         <div className="w-full max-w-xl mx-auto">
           <p className="text-center text-base md:text-lg leading-relaxed text-gray-300 font-light">
             Construir solo es duro.{" "}
             <span className="font-bold text-white underline decoration-red-500 decoration-2 underline-offset-4">
-              Únete a una llamada de meet
+              Únete a nuestras llamadas
             </span>{" "}
-            que estará abierta 24 horas al día durante 45 días para que entre
+            que se realizan todos los lunes y viernes a las 6pm para que entre
             todos podamos ayudarnos a construir cosas increíbles.
           </p>
           <p className="mt-4 text-center text-base md:text-lg leading-relaxed text-gray-300 font-light">
@@ -84,19 +84,6 @@ export const Info = () => {
               <MessageSquare className="w-5 h-5 relative z-10 text-[#FF4C4C]" />
               <span className="font-medium text-white relative z-10">
                 Únete al grupo de WhatsApp
-              </span>
-            </a>
-
-            <a
-              href="https://meet.google.com/new"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative px-8 py-4 flex items-center gap-3 rounded-full bg-black bg-opacity-60 backdrop-blur-md border border-zinc-800 hover:border-zinc-700 shadow-[0_0_15px_rgba(255,255,255,0.05)] transition-all w-80 justify-center"
-            >
-              <div className="absolute inset-0 bg-gradient-to-r from-[#111111] to-[#222222] rounded-full opacity-60"></div>
-              <Video className="w-5 h-5 relative z-10 text-[#EA4335]" />
-              <span className="font-medium text-white relative z-10">
-                Únete al meet 24-7
               </span>
             </a>
           </div>
