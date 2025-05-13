@@ -54,23 +54,15 @@ export const Info = () => {
         </div>
         <p className="text-center text-lg md:text-xl leading-relaxed max-w-xl mx-auto text-gray-300 font-light mb-6">
           45 días para crear un producto y llegar a revenue. El objetivo es
-          ventas.
+          ventas. El producto no tiene que ser nuevo, puede ser el proyecto que
+          llevas trabajando algunos meses o semanas. Aquí el objetivo es que
+          entre todos nos ayudemos para subir las probabilidades de construir
+          cosas increíbles.
         </p>
 
         <div className="w-full max-w-xl mx-auto">
           <p className="text-center text-base md:text-lg leading-relaxed text-gray-300 font-light">
-            Construir solo es duro.{" "}
-            <span className="font-bold text-white underline decoration-red-500 decoration-2 underline-offset-4">
-              Únete a nuestras llamadas
-            </span>{" "}
-            que se realizan todos los lunes y viernes a las 6pm para que entre
-            todos podamos ayudarnos a construir cosas increíbles.
-          </p>
-          <p className="mt-4 text-center text-base md:text-lg leading-relaxed text-gray-300 font-light">
-            <span className="font-bold text-white underline decoration-red-500 decoration-2 underline-offset-4 hover:text-red-400 transition-colors cursor-pointer">
-              Escríbele a Tomás
-            </span>{" "}
-            para que tu proyecto aparezca en la lista de participantes.
+            y más sorpresas en camino....
           </p>
 
           <div className="mt-8 flex flex-col gap-4 items-center">
