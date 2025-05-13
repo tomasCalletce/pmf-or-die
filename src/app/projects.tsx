@@ -4,11 +4,11 @@ import { projects } from "../lib/projects-data";
 export const Projects = () => {
   return (
     <div className="w-full mx-auto max-w-4xl mt-16 px-4">
-      <div className="flex flex-col items-center mb-12">
+      <div className="flex flex-col items-center mb-8">
         <h2 className="text-4xl md:text-5xl font-bold font-[var(--font-audiowide)] tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-red-500">
           PARTICIPANTES
         </h2>
-        <div className="h-[1px] w-24 bg-gradient-to-r from-transparent via-red-500 to-transparent mx-auto my-3"></div>
+        <div className="h-[1px] w-22 bg-gradient-to-r from-transparent via-red-500 to-transparent mx-auto my-2"></div>
         <p className="text-center text-gray-400 max-w-lg">
           Conoce los proyectos participantes
         </p>
@@ -32,7 +32,7 @@ export const Projects = () => {
                     href={project.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-1.5 rounded-full bg-zinc-800 text-gray-400 hover:bg-zinc-700 hover:text-white transition-colors"
+                    className="p-1.5 rounded-full cursor-pointer bg-zinc-800 text-gray-400 hover:bg-zinc-700 hover:text-white transition-colors"
                   >
                     <Linkedin className="w-4 h-4" />
                   </a>
@@ -40,7 +40,7 @@ export const Projects = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-1.5 rounded-full bg-zinc-800 text-gray-400 hover:bg-zinc-700 hover:text-white transition-colors"
+                    className="p-1.5 rounded-full cursor-pointer bg-zinc-800 text-gray-400 hover:bg-zinc-700 hover:text-white transition-colors"
                   >
                     <ExternalLink className="w-4 h-4" />
                   </a>
