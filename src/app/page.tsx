@@ -38,6 +38,13 @@ export default function HomePage() {
               </span>
             </div>
           </div>
+          <div className="inline-flex items-center px-4 py-1.5 mb-6 bg-gradient-to-r from-zinc-900 to-zinc-800 rounded-xl shadow-lg border border-zinc-700">
+            <div className="h-2 w-2 rounded-full bg-red-500 animate-pulse mr-2"></div>
+            <span className="text-sm font-medium text-gray-200">
+              MAY 18 - JULY 2, 2024
+            </span>
+          </div>
+
           <h1 className="text-7xl md:text-8xl font-bold font-[var(--font-audiowide)] tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white from-40% via-white via-60% to-red-600 drop-shadow-lg">
             PMF OR DIE
           </h1>
@@ -46,12 +53,12 @@ export default function HomePage() {
             PRODUCT MARKET FIT OR DIE
           </h2>
         </div>
-        <p className="text-center text-lg md:text-xl leading-relaxed max-w-xl mx-auto text-gray-300 font-light mb-8">
+        <p className="text-center text-lg md:text-xl leading-relaxed max-w-xl mx-auto text-gray-300 font-light mb-6">
           45 días para crear un producto a llegar a revenue. Todo se vale. Lo
           único importa es llegar al $.
         </p>
 
-        <div className="w-full max-w-xl mx-auto mt-4">
+        <div className="w-full max-w-xl mx-auto">
           <p className="text-center text-base md:text-lg leading-relaxed text-gray-300 font-light">
             Construir solo es duro.{" "}
             <span className="font-bold text-white underline decoration-red-500 decoration-2 underline-offset-4">
