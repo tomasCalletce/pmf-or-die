@@ -1,5 +1,6 @@
 import { ExternalLink, Linkedin } from "lucide-react";
 import { projects } from "../lib/projects-data";
+import Link from "next/link";
 
 export const Projects = () => {
   return (
@@ -28,22 +29,22 @@ export const Projects = () => {
                   {project.name}
                 </h3>
                 <div className="flex space-x-2">
-                  <a
+                  <Link
                     href={project.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-1.5 rounded-full cursor-pointer bg-zinc-800 text-gray-400 hover:bg-zinc-700 hover:text-white transition-colors"
                   >
                     <Linkedin className="w-4 h-4" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-1.5 rounded-full cursor-pointer bg-zinc-800 text-gray-400 hover:bg-zinc-700 hover:text-white transition-colors"
                   >
                     <ExternalLink className="w-4 h-4" />
-                  </a>
+                  </Link>
                 </div>
               </div>
 
