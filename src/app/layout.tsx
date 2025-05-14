@@ -13,6 +13,13 @@ export const metadata = {
   title: "PMF OR DIE",
   description:
     "Product Market Fit or Die - 45 días para crear un producto y llegar a revenue.",
+  openGraph: {
+    images: "/info.png",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: "/info.png",
+  },
 };
 
 export default function RootLayout({

@@ -8,7 +8,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     name: "Undecided",
-    description: "AI tooling certification",
+    description: "ia tooling certification",
     linkedin: "https://www.linkedin.com/in/tomas-calle/",
     link: "#",
   },
