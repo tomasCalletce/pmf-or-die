@@ -71,8 +71,8 @@ export const Info = () => {
             Por encima de todo, el objetivo es ventas.
           </span>{" "}
           El producto no tiene que ser nuevo pero sí debe ser pre-revenue. Aquí
-          entre todos nos ayudemos para subir las probabilidades de construir
-          cosas increíbles.
+          todos se ayudan para subir las probabilidades de construir cosas
+          increíbles.
         </p>
 
         <div className="w-full max-w-xl mx-auto">
