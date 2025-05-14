@@ -12,7 +12,7 @@ const audiowide = Audiowide({
 export const metadata = {
   title: "PMF OR DIE",
   description:
-    "Product Market Fit or Die - 45 días para crear un producto y llegar a revenue.",
+    "Construir solos es difícil, entonces por 45 días vamos a estar todos trabajando juntos por una sola meta: revenue. Al final los top 3 startups ganarán un demo frente a un grupo de ángeles y mentores.",
   openGraph: {
     images: "/info.png",
   },
