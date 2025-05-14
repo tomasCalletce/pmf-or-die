@@ -88,7 +88,7 @@ export const Info = () => {
             </a>
             ) para participar y aparecer en la{" "}
             <span className="font-bold underline decoration-red-500">
-              lista de proyectos participantes
+              lista de startups participantes
             </span>
             .
           </p>
@@ -102,7 +102,10 @@ export const Info = () => {
           </p>
 
           <p className="text-center text-base md:text-lg leading-relaxed text-gray-600 font-light mt-4">
-            más sorpresas en camino....
+            <span className="font-light italic tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-gray-600 via-red-500 to-gray-600">
+              más sorpresas en camino
+              <span className="tracking-widest">...</span>
+            </span>
           </p>
 
           <Whatsapp />
