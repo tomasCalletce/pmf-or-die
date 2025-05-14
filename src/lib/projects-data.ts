@@ -7,9 +7,9 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: "Croma",
-    description: "IA interviews for ai enabled professionals",
+    name: "Undecided",
+    description: "AI tooling certification",
     linkedin: "https://www.linkedin.com/in/tomas-calle/",
-    link: "https://usecroma.com/",
+    link: "#",
   },
 ];

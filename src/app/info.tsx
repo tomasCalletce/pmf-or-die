@@ -1,4 +1,5 @@
-import { MessageSquare } from "lucide-react";
+import { Whatsapp } from "./whatsapp";
+
 export const Info = () => {
   return (
     <>
@@ -40,7 +41,7 @@ export const Info = () => {
           <div className="inline-flex items-center px-4 py-1.5 mb-6 bg-gradient-to-r from-zinc-900 to-zinc-800 rounded-xl shadow-lg border border-zinc-700">
             <div className="h-2 w-2 rounded-full bg-red-500 animate-pulse mr-2"></div>
             <span className="text-sm font-medium text-gray-200">
-              MAY 18 - JULY 2, 2024
+              MAYO 20 - JUNIO 15, 2025
             </span>
           </div>
 
@@ -104,20 +105,7 @@ export const Info = () => {
             más sorpresas en camino....
           </p>
 
-          <div className="mt-8 flex flex-col gap-4 items-center">
-            <a
-              href="https://chat.whatsapp.com/DqHtEAQM9K6BbBDz8TU1eP"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative px-8 py-4 flex items-center gap-3 rounded-full bg-black bg-opacity-60 backdrop-blur-md border border-zinc-800 hover:border-zinc-700 shadow-[0_0_15px_rgba(255,255,255,0.05)] transition-all w-80 justify-center"
-            >
-              <div className="absolute inset-0 bg-gradient-to-r from-[#111111] to-[#222222] rounded-full opacity-60"></div>
-              <MessageSquare className="w-5 h-5 relative z-10 text-[#FF4C4C]" />
-              <span className="font-medium text-white relative z-10">
-                Únete al grupo de WhatsApp
-              </span>
-            </a>
-          </div>
+          <Whatsapp />
         </div>
       </div>
     </>
