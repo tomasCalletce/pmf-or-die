@@ -41,7 +41,7 @@ export const Info = () => {
           <div className="inline-flex items-center px-4 py-1.5 mb-6 bg-gradient-to-r from-zinc-900 to-zinc-800 rounded-xl shadow-lg border border-zinc-700">
             <div className="h-2 w-2 rounded-full bg-red-500 animate-pulse mr-2"></div>
             <span className="text-sm font-medium text-gray-200">
-              MAYO 20 - JUNIO 15, 2025
+              MAYO 20 - JULIO 4, 2025
             </span>
           </div>
 
