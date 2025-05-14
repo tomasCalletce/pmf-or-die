@@ -54,7 +54,7 @@ export const Info = () => {
           </h2>
         </div>
         <p className="text-center text-xs text-gray-500 mb-6">
-          Credit to{" "}
+          credit to{" "}
           <a
             href="https://x.com/blakeandersonw"
             target="_blank"
@@ -68,11 +68,11 @@ export const Info = () => {
         <p className="text-center text-lg md:text-xl leading-relaxed max-w-xl mx-auto text-gray-300 font-light mb-6">
           45 días para crear un producto y llegar a revenue.{" "}
           <span className="font-bold underline decoration-red-500">
-            Por encima de nada el objetivo es ventas.
+            Por encima de todo, el objetivo es ventas.
           </span>{" "}
           El producto no tiene que ser nuevo pero sí debe ser pre-revenue. Aquí
-          el objetivo es que entre todos nos ayudemos para subir las
-          probabilidades de construir cosas increíbles.
+          entre todos nos ayudemos para subir las probabilidades de construir
+          cosas increíbles.
         </p>
 
         <div className="w-full max-w-xl mx-auto">
