@@ -61,18 +61,46 @@ export const Info = () => {
             className="hover:text-gray-400 underline decoration-dotted"
           >
             @blakeandersonw
-          </a>
+          </a>{" "}
+          for the name.
         </p>
         <p className="text-center text-lg md:text-xl leading-relaxed max-w-xl mx-auto text-gray-300 font-light mb-6">
-          45 días para crear un producto y llegar a revenue. El objetivo es
-          ventas. El producto no tiene que ser nuevo, puede ser el proyecto que
-          llevas trabajando algunos meses o semanas. Aquí el objetivo es que
-          entre todos nos ayudemos para subir las probabilidades de construir
-          cosas increíbles.
+          45 días para crear un producto y llegar a revenue.{" "}
+          <span className="font-bold underline decoration-red-500">
+            Por encima de nada el objetivo es ventas.
+          </span>{" "}
+          El producto no tiene que ser nuevo pero sí debe ser pre-revenue. Aquí
+          el objetivo es que entre todos nos ayudemos para subir las
+          probabilidades de construir cosas increíbles.
         </p>
 
         <div className="w-full max-w-xl mx-auto">
           <p className="text-center text-base md:text-lg leading-relaxed text-gray-300 font-light">
+            Escríbele a Tomás (
+            <a
+              href="https://www.linkedin.com/in/tomas-calle/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-red-500 hover:text-red-300"
+            >
+              @tomas-calle
+            </a>
+            ) para participar y aparecer en la{" "}
+            <span className="font-bold underline decoration-red-500">
+              lista de proyectos participantes
+            </span>
+            .
+          </p>
+
+          <p className="text-center text-base md:text-lg leading-relaxed text-gray-300 font-light mt-4">
+            Al final el{" "}
+            <span className="font-bold underline decoration-red-500">
+              top 3
+            </span>{" "}
+            podrá presentar su startup a un grupo de ángeles y mentores.
+          </p>
+
+          <p className="text-center text-base md:text-lg leading-relaxed text-gray-600 font-light mt-4">
             más sorpresas en camino....
           </p>
 
