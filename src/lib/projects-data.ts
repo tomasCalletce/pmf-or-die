@@ -15,7 +15,7 @@ export const projects: Project[] = [
   {
     name: "dbob",
     description:
-      "Escalamos las ventas de los infoproductores con procesos de venta hiper-personalizado",
+      "Escalamos las ventas de los infoproductores con procesos de venta hiper personalizados",
     linkedin:
       "https://www.linkedin.com/in/andre-portilla?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     link: "https://dbob.tech",
