@@ -1,0 +1,243 @@
+[
+  {
+    "id": "v1jzknwgky",
+    "name": "Mentaclass",
+    "description": "- Menta es un emprendimiento que busca ayudar a estudiantes de secundaria, media, y universidad, a alcanzar sus metas académicas y universitarias - por medio de una plataforma gamificada donde estudiantes contestan preguntas que se traducen a una matriz de conocimientos -conformada de contenido para guiar y motivar el aprendizaje en las areas evaluadas. Los contenidos y las preguntas van a ser powered by un buscador de IA especifico a paginas web educativas, de tal manera de que las necesidades de cada estudiante sean cubiertas.",
+    "landing_page": "mentaclass.com",
+    "founders_linkedin": ["github.com/issaza278", "github.com/martijaram"],
+    "submitted_at": "May 17, 2025 12:32 pm",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 3,
+    "segment": "educación"
+  },
+  {
+    "id": "ggbpcnvsjm",
+    "name": "dtapop.com",
+    "description": "Transforma datos en tendencia en gráficos accesibles y atractivos",
+    "landing_page": "http://dtapop.com/",
+    "founders_linkedin": ["https://www.linkedin.com/in/ricardoepretelt/"],
+    "submitted_at": "May 17, 2025 05:41 am",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 2,
+    "segment": "datos"
+  },
+  {
+    "id": "onzs6ounnm",
+    "name": "Kinoia",
+    "description": "Hey! Somos la mejor opción de experiencias conversacionales con personalidad",
+    "landing_page": "https://www.kinoia.com/",
+    "founders_linkedin": [
+      "https://www.linkedin.com/in/alejandra-rojas-garzon/",
+      "https://www.linkedin.com/in/juanse-garcia/",
+      "https://www.linkedin.com/in/victor-camacho-qhronus/"
+    ],
+    "submitted_at": "May 17, 2025 01:53 am",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 1,
+    "segment": "conversacional"
+  },
+  {
+    "id": "ds40igd4np",
+    "name": "Ezcala AI",
+    "description": "Somos un SAAS para que nuestros clientes creen agentes de IA que venden por WhatsApp.",
+    "landing_page": "https://ai.ezcala.co",
+    "founders_linkedin": ["https://www.linkedin.com/in/alejoroj4s?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"],
+    "submitted_at": "May 16, 2025 09:09 pm",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 4,
+    "segment": "IA"
+  },
+  {
+    "id": "ef1nwcssqi",
+    "name": "Vanguard Innovation",
+    "description": "Soluciones innovadoras para micro y pequenas empresas",
+    "landing_page": "https://emprendoestoy.web.app/",
+    "founders_linkedin": ["https://www.linkedin.com/in/cristiangarciasv/"],
+    "submitted_at": "May 16, 2025 01:24 pm",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 1,
+    "segment": "negocios"
+  },
+  {
+    "id": "npfyxhnciz",
+    "name": "Helty",
+    "description": "Mejoramos el seguimiento post-consulta médica con AI Ayudamos a profesionales de la salud a mejorar el proceso de seguimiento postconsulta a través de un acompañamiento personalizado, garantizando la adherencia al tratamiento, la detección temprana de complicaciones y la satisfacción del paciente.",
+    "landing_page": "https://helty-post-consult.lovable.app/",
+    "founders_linkedin": [
+      "https://www.linkedin.com/in/jesusdelgadodiseno/", 
+      "https://www.linkedin.com/in/carlabpalencia/"
+    ],
+    "submitted_at": "May 16, 2025 08:05 am",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 2,
+    "segment": "salud"
+  },
+  {
+    "id": "sfnbsr8uwt",
+    "name": "SkillBloom",
+    "description": "Plataforma AI-first enfocada para personas que busquen emprender, cambiar de carrera o aprender habilidades en demanda mediante una profunda evaluación de habilidades únicas con IA, planeación de un roadmap personalizado, seguimiento y coaching IA, mentoría profesional y emparejamiento con posibles co-founders con habilidades complementarias",
+    "landing_page": "https://skillbloom-beta.vercel.app/",
+    "founders_linkedin": [
+      "https://www.linkedin.com/in/diego-alejandro-molano-roa-1444681b6/", 
+      "https://www.linkedin.com/in/juan-vargas-3b4a12295/", 
+      "https://www.linkedin.com/in/lfmolano/"
+    ],
+    "submitted_at": "May 15, 2025 10:37 pm",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 1,
+    "segment": "rrhh"
+  },
+  {
+    "id": "yayiv4tig9",
+    "name": "irrelevant club",
+    "description": "AI assistant para VC - Investment memo, y due diligence",
+    "landing_page": "stayirrelevant.com",
+    "founders_linkedin": ["https://www.linkedin.com/in/juan-pablo-gomez-730145212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"],
+    "submitted_at": "May 15, 2025 10:15 pm",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 4,
+    "segment": "finanzas"
+  },
+  {
+    "id": "pvhajjbwoh",
+    "name": "Irradialab",
+    "description": ": IrradIA Lab es un laboratorio de inteligencia artificial emergente (startup) enfocado en guiar y capacitar a empresas para adoptar estratégicamente tecnologías de IA generativa. Funcionamos como un socio tecnológico, transformando datos y procesos complejos en soluciones de IA personalizadas y eficientes que generan valor de negocio tangible.",
+    "landing_page": "https://irradialab.com/",
+    "founders_linkedin": [
+      "https://www.linkedin.com/in/sntggmz/",
+      "https://www.linkedin.com/in/ximena-estefania-ria%C3%B1o-agudelo-5b39b75a/",
+      "https://www.linkedin.com/in/hdinsuastic/"
+    ],
+    "submitted_at": "May 15, 2025 10:06 pm",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 3,
+    "segment": "IA"
+  },
+  {
+    "id": "tzsooesslh",
+    "name": "Gradual",
+    "description": "An adaptive learning platform that breaks down complex subjects into digestible steps powered by AI. Learn what you need, when you need it.",
+    "landing_page": "https://trygradual.com/",
+    "founders_linkedin": [
+      "https://www.linkedin.com/in/cuevaio/",
+      "https://www.linkedin.com/in/railly-hugo/",
+      "https://www.linkedin.com/in/ignacior97/",
+      "https://www.linkedin.com/in/shiara-arauzo/",
+      "https://www.linkedin.com/in/lizethriveros/",
+      "https://www.linkedin.com/in/carlos-tarmeno/",
+      "https://www.linkedin.com/in/edwardramosvillarreal/"
+    ],
+    "submitted_at": "May 15, 2025 12:44 pm",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 2,
+    "segment": "educación"
+  },
+  {
+    "id": "gcs0xhww7d",
+    "name": "Tresqu",
+    "description": "Agente de inteligencia artificial que te ayuda con tus finanzas",
+    "landing_page": "https://tresqu.com/",
+    "founders_linkedin": [
+      "https://www.linkedin.com/in/jaimeaza/", 
+      "https://www.linkedin.com/in/edison-alexander-escobar-isac-as-907642219/"
+    ],
+    "submitted_at": "May 15, 2025 12:38 pm",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 3,
+    "segment": "finanzas"
+  },
+  {
+    "id": "hbnfwf6mvg",
+    "name": "FounderAid",
+    "description": "FounderAid es un copiloto legal con IA diseñado para fundadores —especialmente en Latinoamérica— que quieren lanzar y escalar startups globales sin fricciones legales ni altos costos.  Puedes:  Incorporar tu empresa en EE. UU. con asesoría personalizada. Comparar documentos legales y detectar cambios clave. Consultar tus contratos o políticas con un asesor legal inteligente (IA + RAG). Scanner de Compliance Automatico (GDPR, CCPA, etc.) y recibir alertas y soluciones claras. Buscar y registrar marcas y patentes. Acceder a una biblioteca de plantillas legales esenciales en EE. UU. y LatAm. Nuestra misión es convertir lo legal en una ventaja competitiva para los fundadores, automatizando lo complejo y explicando lo crítico.",
+    "landing_page": "https://founderaid.webelopers.io/",
+    "founders_linkedin": [
+      "https://www.linkedin.com/in/tomasbaron/", 
+      "https://www.linkedin.com/in/gemu/", 
+      "https://www.linkedin.com/in/samuel-ramirez-developer/"
+    ],
+    "submitted_at": "May 15, 2025 09:19 am",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 4,
+    "segment": "legal"
+  },
+  {
+    "id": "tw3r5xicuv",
+    "name": "Croma",
+    "description": "ai tooling certification",
+    "landing_page": "https://usecroma.com/",
+    "founders_linkedin": ["https://www.linkedin.com/in/tomas-calle/"],
+    "submitted_at": "May 15, 2025 09:11 am",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 1,
+    "segment": "IA"
+  },
+  {
+    "id": "d8fszcmxqs",
+    "name": "Tu profe de ia",
+    "description": "Tu ProfeDeIA es una startup especializada en el desarrollo de soluciones con inteligencia artificial, enfocada en la creación de agentes conversacionales, automatización de procesos y herramientas inteligentes personalizadas. Combinamos tecnología de vanguardia con un enfoque práctico para potenciar la productividad y competitividad de emprendedores y pequeñas empresas.",
+    "landing_page": "https://tuprofedeia.com.co/landing",
+    "founders_linkedin": ["https://www.linkedin.com/in/john-alexander-paez-arias-543b0254"],
+    "submitted_at": "May 14, 2025 09:57 pm",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 2,
+    "segment": "educación"
+  },
+  {
+    "id": "mspuwrv21h",
+    "name": "Zero Waste",
+    "description": "Zero Waste es tu compañera inteligente: propone menús semanales a tu medida, te enseña a aprovechar cada ingrediente y te ayuda a sacar el máximo provecho de los sobrantes.",
+    "landing_page": "https://sabooor-app.vercel.app/",
+    "founders_linkedin": [
+      "https://www.linkedin.com/in/wolfcito/", 
+      "https://www.linkedin.com/in/kely-aristizabal/"
+    ],
+    "submitted_at": "May 14, 2025 09:06 pm",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 4,
+    "segment": "alimentación"
+  },
+  {
+    "id": "mhju06t5gi",
+    "name": "AprendeMate",
+    "description": "Plataforma para enseñar Matemáticas con IA, analitica de aprendizaje personalizado y multimodalidad.",
+    "landing_page": "https://previewmvp.wixsite.com/aprendemate",
+    "founders_linkedin": ["https://www.linkedin.com/in/edith-romero-a03a74150?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"],
+    "submitted_at": "May 14, 2025 08:35 pm",
+    "revenue": 0,
+    "revenue_change": 0,
+    "status": "neutral",
+    "avatar_id": 3,
+    "segment": "educación"
+  }
+] 

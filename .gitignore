@@ -44,3 +44,9 @@ yarn-error.log*
 
 # idea files
 .idea
+
+# Cursor Files
+.cursor
+.cursorrules
+.cursorignore
+.data
