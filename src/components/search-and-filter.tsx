@@ -46,15 +46,15 @@ export const SearchAndFilter = ({
   };
 
   return (
-    <div className="sticky top-0 z-10 bg-black/95 pt-2 pb-3 -mx-4 px-4 backdrop-blur-sm border-b border-zinc-800/50">
-      <div className="flex items-center gap-2">
-        <div className="relative flex-1">
+    <div className="sticky top-0 z-10 bg-black/95 pt-2 pb-3 -mx-4 px-4 backdrop-blur-sm border-b border-zinc-800/50 w-full">
+      <div className="flex items-center gap-2 w-full">
+        <div className="relative flex-1 min-w-0">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <Search className="h-4 w-4 text-gray-400" />
           </div>
           <input 
             type="text"
-            placeholder="educacion, datos, etc..."
+            placeholder="educacion, datos, ai..."
             className="w-full pl-10 pr-4 py-2 bg-zinc-900/80 border border-zinc-800 rounded-md text-white focus:outline-none focus:ring-1 focus:ring-red-500"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}

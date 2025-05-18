@@ -40,16 +40,17 @@ export const StartupsGrid = ({
         </div>
       )}
 
-      {/* Grid layout */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4">
+      {/* Grid layout - fixed height and consistent spacing */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-[22rem]">
         {startups.length > 0 ? (
           startups.map((startup) => (
-            <StartupCard 
-              key={startup.id} 
-              startup={startup} 
-              searchTerm={searchTerm}
-              formatCurrency={formatCurrency}
-            />
+            <div key={startup.id} className="h-full w-full">
+              <StartupCard 
+                startup={startup} 
+                searchTerm={searchTerm}
+                formatCurrency={formatCurrency}
+              />
+            </div>
           ))
         ) : (
           <div className="col-span-3 text-center py-4">

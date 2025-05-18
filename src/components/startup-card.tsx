@@ -1,12 +1,12 @@
-"use client";
-
-import React, { useMemo } from "react";
+import React from "react";
 import Link from "next/link";
 import { ExternalLink, ArrowUp, ArrowDown, Linkedin, Users, Tag, Info } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { StartupAvatar } from "./startup-avatar";
+import { StartupAvatar } from "./startup-avatar-server";
 import type { Startup } from "../types";
+
+import { StartupCardClient } from "./startup-card-client";
 
 interface StartupCardProps {
   startup: Startup;
@@ -21,32 +21,33 @@ const SEGMENT_COLORS = [
 
 type SegmentColor = typeof SEGMENT_COLORS[number];
 
+
+function getSegmentColor(segment: string): SegmentColor {
+  let hash = 0;
+  const segmentText = segment || '';
+  
+  for (let i = 0; i < segmentText.length; i++) {
+    hash = ((hash << 5) - hash) + segmentText.charCodeAt(i);
+    hash = hash & hash;
+  }
+  
+  hash = Math.abs(hash);
+  
+  
+  return SEGMENT_COLORS[hash % SEGMENT_COLORS.length] as SegmentColor;
+}
+
 export const StartupCard = ({ startup, searchTerm, formatCurrency }: StartupCardProps) => {
   
-  const segmentColor = useMemo(() => {
-    
-    let hash = 0;
-    const segment = startup.segment || '';
-    
-    for (let i = 0; i < segment.length; i++) {
-      hash = ((hash << 5) - hash) + segment.charCodeAt(i);
-      hash = hash & hash;
-    }
-    
-    
-    hash = Math.abs(hash);
-    
-    
-    return SEGMENT_COLORS[hash % SEGMENT_COLORS.length];
-  }, [startup.segment]);
+  const segmentColor = getSegmentColor(startup.segment);
   
   return (
     <Card
-      className="group transition-all duration-300 hover:border-l-red-500 hover:border-l-2 overflow-hidden h-full"
+      className="group transition-all duration-300 hover:border-l-red-500 hover:border-l-2 overflow-hidden h-full w-full max-w-sm max-h-[22rem]"
     >
       <CardContent className="p-0 flex flex-col h-full">
         {/* Header with name and status */}
-        <div className="p-3 flex items-center gap-3 border-b border-zinc-800/50">
+        <header className="p-3 flex items-center gap-3 border-b border-zinc-800/50">
           <StartupAvatar 
             avatarId={startup.avatar_id} 
             className="w-10 h-10 md:w-12 md:h-12 rounded-full border border-zinc-700/30 shrink-0"
@@ -54,9 +55,9 @@ export const StartupCard = ({ startup, searchTerm, formatCurrency }: StartupCard
 
           <div className="flex-1 min-w-0">
             <div className="flex items-center justify-between">
-              <h3 className="font-semibold text-sm md:text-base text-white truncate">
+              <h2 className="font-semibold text-sm md:text-base text-white truncate">
                 {startup.name}
-              </h3>
+              </h2>
               <Badge 
                 variant={startup.status as 'growing' | 'declining' | 'neutral'}
                 className="shrink-0 text-[10px] md:text-xs"
@@ -65,14 +66,11 @@ export const StartupCard = ({ startup, searchTerm, formatCurrency }: StartupCard
                 startup.status === 'declining' ? 'Decreciendo' : 'Neutral'}
               </Badge>
             </div>
-            <div className="flex items-center mt-0.5">
-              <span className="text-[10px] md:text-xs text-gray-500">Desde {new Date(startup.submitted_at).toLocaleDateString()}</span>
-            </div>
           </div>
-        </div>
+        </header>
 
-        {/* Description section - what the startup does */}
-        <div className="px-3 py-2 bg-zinc-900/30">
+        
+        <section aria-label="Descripción" className="px-3 py-2 bg-zinc-900/30">
           <div className="flex items-start gap-2">
             <Info className="w-3 h-3 text-red-500 mt-1 shrink-0" />
             <div>
@@ -101,9 +99,9 @@ export const StartupCard = ({ startup, searchTerm, formatCurrency }: StartupCard
               </p>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div className="mt-1 px-3 py-2 flex-1">
+        <section aria-label="Información financiera" className="mt-1 px-3 py-2 flex-1">
           <div className="flex flex-col gap-2">
             <div className="flex items-center justify-between border-b border-zinc-800/30 pb-2">
               <p className="text-[10px] md:text-xs font-medium text-gray-400">Ingresos</p>
@@ -135,42 +133,14 @@ export const StartupCard = ({ startup, searchTerm, formatCurrency }: StartupCard
             </div>
           </div>
 
-          {searchTerm === "" && startup.founders_linkedin && startup.founders_linkedin.length > 0 && (
-            <div className="mt-3 border-t border-zinc-800/30 pt-2">
-              <p className="text-[10px] md:text-xs font-medium text-gray-400 flex items-center gap-1">
-                <Users className="w-3 h-3" /> Fundadores
-              </p>
-              <div className="flex flex-wrap gap-1 mt-1">
-                {startup.founders_linkedin.map((linkedinUrl, idx) => (
-                  <Link
-                    key={idx}
-                    href={linkedinUrl.startsWith('http') ? linkedinUrl : `https://${linkedinUrl}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 px-2 py-0.5 bg-zinc-800/60 rounded-md text-[10px] md:text-xs text-gray-300 hover:bg-zinc-700/60 transition-colors"
-                  >
-                    <Linkedin className="w-2.5 h-2.5" />
-                    <span>Fundador {idx + 1}</span>
-                  </Link>
-                ))}
-              </div>
-            </div>
+          
+          {startup.founders_linkedin && startup.founders_linkedin.length > 0 && (
+            <StartupCardClient
+              foundersLinkedin={startup.founders_linkedin}
+              landingPage={startup.landing_page}
+            />
           )}
-        </div>
-
-        <div className="mt-auto border-t border-zinc-800/50 p-2 flex items-center justify-end">
-          {startup.landing_page && (
-            <Link
-              href={startup.landing_page.startsWith('http') ? startup.landing_page : `https://${startup.landing_page}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1 px-2 py-0.5 rounded-md bg-black/30 border border-zinc-700/30 text-white hover:bg-black/50 hover:border-red-500/20 transition-colors text-[10px] md:text-xs"
-            >
-              <ExternalLink className="w-2.5 h-2.5" />
-              <span>Ver sitio web</span>
-            </Link>
-          )}
-        </div>
+        </section>
       </CardContent>
     </Card>
   );

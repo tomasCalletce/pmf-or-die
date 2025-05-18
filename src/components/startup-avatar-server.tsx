@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { cn } from "../lib/utils";
 
@@ -9,7 +7,7 @@ interface AvatarProps {
 }
 
 export const StartupAvatar: React.FC<AvatarProps> = ({ avatarId, className }) => {
-  // A set of predefined avatars based on the avatarId
+  
   const getAvatar = () => {
     switch (avatarId) {
       case 1:
@@ -251,11 +249,5 @@ export const StartupAvatar: React.FC<AvatarProps> = ({ avatarId, className }) =>
     }
   };
 
-  return (
-    <div className={cn("relative flex items-center justify-center overflow-hidden rounded-full", className)}>
-      {getAvatar()}
-    </div>
-  );
-};
-
-export default StartupAvatar; 
+  return <div className={cn(className)}>{getAvatar()}</div>;
+}; 

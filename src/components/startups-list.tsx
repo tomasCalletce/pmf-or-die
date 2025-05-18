@@ -142,7 +142,7 @@ export const StartupsList = () => {
   }
 
   return (
-    <div className="w-full mx-auto max-w-6xl mt-6 md:mt-16 px-4 pb-12">
+    <div className="w-full mx-auto max-w-6xl mt-6 md:mt-16 px-4 pb-12 min-h-screen">
       <div className="flex flex-col items-center mb-4 md:mb-8">
         <h2 className="text-3xl md:text-5xl font-bold font-[var(--font-audiowide)] tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-red-500">
           STARTUPS
