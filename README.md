@@ -8,7 +8,7 @@ Building alone is hard. That's why for 45 days, we're all working together with 
 
 ## 🛠️ Tech Stack
 
-- **Framework**: [Next.js 14](https://nextjs.org) with App Router
+- **Framework**: [Next.js 15](https://nextjs.org) with App Router
 - **Styling**: [Tailwind CSS](https://tailwindcss.com)
 - **UI Components**: [shadcn/ui](https://ui.shadcn.com)
 - **Fonts**: Inter & Audiowide (Google Fonts)
