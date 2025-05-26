@@ -334,7 +334,7 @@ export const startups: Startup[] = [
     name: "Zero Waste",
     description:
       "Zero Waste es tu compañera inteligente: propone menús semanales a tu medida, te enseña a aprovechar cada ingrediente y te ayuda a sacar el máximo provecho de los sobrantes.",
-    landing_page: "https://sabooor-app.vercel.app/",
+    landing_page: "https://zerowaste.lat/",
     founders_linkedin: [
       "https://www.linkedin.com/in/wolfcito/",
       "https://www.linkedin.com/in/kely-aristizabal/",
