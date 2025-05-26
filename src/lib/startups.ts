@@ -344,7 +344,7 @@ export const startups: Startup[] = [
     revenue_change: 0,
     status: "neutral",
     avatar_id: 4,
-    segment: "alimentación",
+    segment: "foodtech",
   },
   {
     id: "mhju06t5gi",
