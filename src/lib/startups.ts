@@ -338,6 +338,7 @@ export const startups: Startup[] = [
     founders_linkedin: [
       "https://www.linkedin.com/in/wolfcito/",
       "https://www.linkedin.com/in/kely-aristizabal/",
+      "https://www.linkedin.com/in/wilder-aristizabal-4261a0363/"
     ],
     submitted_at: "May 14, 2025 09:06 pm",
     revenue: 0,
