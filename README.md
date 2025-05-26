@@ -17,11 +17,6 @@ Building alone is hard. That's why for 45 days, we're all working together with 
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-- Node.js 18+
-- pnpm (recommended) or npm
-
 ### Installation
 
 1. Clone the repository:
