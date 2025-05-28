@@ -334,17 +334,18 @@ export const startups: Startup[] = [
     name: "Zero Waste",
     description:
       "Zero Waste es tu compañera inteligente: propone menús semanales a tu medida, te enseña a aprovechar cada ingrediente y te ayuda a sacar el máximo provecho de los sobrantes.",
-    landing_page: "https://sabooor-app.vercel.app/",
+    landing_page: "https://zerowaste.lat/",
     founders_linkedin: [
       "https://www.linkedin.com/in/wolfcito/",
       "https://www.linkedin.com/in/kely-aristizabal/",
+      "https://www.linkedin.com/in/wilder-aristizabal-4261a0363/"
     ],
     submitted_at: "May 14, 2025 09:06 pm",
     revenue: 0,
     revenue_change: 0,
     status: "neutral",
     avatar_id: 4,
-    segment: "alimentación",
+    segment: "foodtech",
   },
   {
     id: "mhju06t5gi",
